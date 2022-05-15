@@ -1,0 +1,128 @@
+/*Colour Palette */
+body {
+  background: #fff;
+}
+
+.container {
+  position: relative;
+  height: 300px;
+  width: 500px;
+  top: 30px;
+  margin: auto;
+  background: none;
+}
+
+.tree-1 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 70px;
+  top: 150px;
+  border-radius: 50%;
+  background: #41B883;
+}
+
+.tree-1:before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 10px;
+  top: -15px;
+  border-radius: 50%;
+  background: #41B883;
+}
+
+.tree-2 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 130px;
+  top: 120px;
+  border-radius: 50%;
+  background: #41B883;
+}
+
+.stem-1 {
+  position: absolute;
+  height: 40px;
+  width: 5px;
+  left: 45%;
+  top: 50px;
+  background: #35495e;
+}
+
+.stem-2 {
+  position: absolute;
+  height: 40px;
+  width: 5px;
+  left: 45%;
+  top: 80px;
+  background: #35495e;
+}
+
+.vue {
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  left: 200px;
+  top: 140px;
+  border-bottom: 100px solid #41B883;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+}
+
+.vue:before {
+  position: absolute;
+  content: "";
+  height: 0px;
+  width: 0px;
+  left: -35px;
+  top: 40px;
+  border-bottom: 60px solid #35495e;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+}
+
+.vue:after {
+  position: absolute;
+  content: "";
+  height: 0px;
+  width: 0px;
+  left: -10px;
+  top: 80px;
+  border-bottom: 20px solid #fff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.sun {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  left: 300px;
+  top: 70px;
+  border-radius: 50%;
+  border: 10px solid #41B883;
+}
+
+.circles {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 350px;
+  top: 210px;
+  background: #41B883;
+  border-radius: 50%;
+}
+
+.circles:after {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 25px;
+  top: 15px;
+  background: #41B883;
+  border-radius: 50%;
+}
